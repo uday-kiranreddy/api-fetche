@@ -47,9 +47,13 @@
     color:black;
     font-size: 2rem;
   }
-  .singleImage img{
-    height:400px;
-    width:auto;
+  
+  @media (max-width:700px){
+    
+    .singleImage img{
+      height:200px;
+      width:200px;
+    }
   }
   .spinner {
     margin: auto;
