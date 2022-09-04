@@ -42,7 +42,9 @@ function Details() {
                     <div>
                       <h2>{Title}</h2>
                       <p>
-                        {content}
+                        {readMore ? content : `${content.substring(0, 200)}...`}
+                        ;
+                      
                       </p>
                     </div>
                   </div>
