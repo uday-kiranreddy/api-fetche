@@ -42,14 +42,7 @@ function Details() {
                     <div>
                       <h2>{Title}</h2>
                       <p>
-                        {readMore ? content : `${content.substring(0, 200)}...`}
-                        ;
-                        <button
-                          className="btn"
-                          onClick={() => setReadMore(!readMore)}
-                        >
-                          {readMore ? "show less" : "Read More"}
-                        </button>
+                        {content}
                       </p>
                     </div>
                   </div>

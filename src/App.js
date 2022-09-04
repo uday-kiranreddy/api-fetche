@@ -8,7 +8,6 @@ function App() {
   return (
     <Router>
       <Routes>
-       
         <Route path="/" exact element={<Details/>} />
         <Route path="/Details/:id" element={<Item/>} />
       </Routes>
